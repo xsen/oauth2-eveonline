@@ -33,7 +33,7 @@ class EveOnline extends AbstractProvider
      * @return string
      */
     public function getBaseAuthorizationUrl(){
-    	return $this->login_domain.'/oauth/authorize';
+    	return $this->login_domain.'/v2/oauth/authorize';
 
     }
 
@@ -46,7 +46,7 @@ class EveOnline extends AbstractProvider
      * @return string
      */
     public function getBaseAccessTokenUrl(array $params){
-    	return $this->login_domain.'/oauth/token';
+    	return $this->login_domain.'/v2/oauth/token';
 
     }
 
