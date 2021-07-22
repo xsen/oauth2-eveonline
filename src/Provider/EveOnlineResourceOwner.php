@@ -1,5 +1,5 @@
 <?php
-namespace jbs1\OAuth2\Client\Provider;
+namespace xsen\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use GuzzleHttp\Psr7\Request;

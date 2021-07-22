@@ -2,3 +2,4 @@ provider.php
 *.sublime-*
 sftp-config.json
 vendor
+.idea

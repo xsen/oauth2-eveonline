@@ -10,11 +10,11 @@ Add this to your composer.json:
     "repositories":[
     {
         "type": "git",
-        "url": "https://github.com/jbs1/oauth2-eveonline.git"
+        "url": "https://github.com/xsen/oauth2-eveonline.git"
     }
     ],
     "require": {
-        "jbs1/oauth2-eveonline": "*@dev"
+        "xsen/oauth2-eveonline": "*@dev"
     }
 }
 ```
@@ -22,13 +22,13 @@ Do not forget to add `require_once(__DIR__ . '/vendor/autoload.php');` to the ne
 
 
 ## How to Use
-The usage is the same as with the generic provider from the PHPleague's client, just with a `jbs1\OAuth2\Client\Provider\EveOnline` provider.
+The usage is the same as with the generic provider from the PHPleague's client, just with a `xsen\OAuth2\Client\Provider\EveOnline` provider.
 
 
 ### Authorization Code Flow
 
 ```php
-$provider = new jbs1\OAuth2\Client\Provider\EveOnline([
+$provider = new xsen\OAuth2\Client\Provider\EveOnline([
     'clientId'                => 'demoapp',    // The client ID assigned to you by the provider
     'clientSecret'            => 'demopass',   // The client password assigned to you by the provider
     'redirectUri'             => 'http://example.com/your-redirect-url/',
