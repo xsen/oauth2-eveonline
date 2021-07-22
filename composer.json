@@ -3,7 +3,7 @@
     "description": "EVE Online OAuth 2 Client with extended ResourceOwner",
 	"require": {
         "league/oauth2-client": "^2.2",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "^7.3.0"
     },
     "autoload": {
     	"psr-4": {
